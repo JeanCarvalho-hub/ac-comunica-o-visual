@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AC Comunicação | Comunicação Visual e Gráfica</title>
+    <meta name="description" content="Soluções em comunicação visual: placas, fachadas, letras caixa, placas em Libras, criação de artes, plaquinhas NFC e QR Code e presença digital.">
+    <meta name="theme-color" content="#1D1E21">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="AC Comunicação | Comunicação Visual e Gráfica">
+    <meta property="og:description" content="Soluções em comunicação visual: placas, fachadas, letras caixa, placas em Libras, criação de artes, plaquinhas NFC e QR Code e presença digital.">
+    <meta property="og:image" content="img/logo-ac.png">
+    <!-- Quando o site estiver no ar, troque por URLs absolutas:
+    <meta property="og:url" content="https://www.seudominio.com.br/">
+    <meta property="og:image" content="https://www.seudominio.com.br/img/logo-ac.png"> -->
+
+    <link rel="icon" type="image/png" href="img/logo-ac-simbolo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <!-- ============ HEADER ============ -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="#inicio" class="brand" aria-label="AC Comunicação — voltar ao início">
+                <!-- LOGO: troque o arquivo em img/logo-ac-simbolo.png -->
+                <img src="img/logo-ac-simbolo.png" alt="" class="brand__symbol" width="600" height="487">
+                <span class="brand__text">
+                    <span class="brand__name">AC Comunicação</span>
+                    <span class="brand__tag">Comunicação visual</span>
+                </span>
+            </a>
+
+            <nav class="nav" id="nav" aria-label="Navegação principal">
+                <ul class="nav__list">
+                    <li><a href="#inicio" class="nav__link">Início</a></li>
+                    <li><a href="#servicos" class="nav__link">Serviços</a></li>
+                    <li><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li><a href="#trabalhos" class="nav__link">Trabalhos</a></li>
+                    <li><a href="#contato" class="nav__link">Contato</a></li>
+                </ul>
+                <a href="#contato" class="btn btn--primary nav__cta">Solicitar orçamento</a>
+            </nav>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="conteudo">
+
+        <!-- ============ HERO ============ -->
+        <section class="hero" id="inicio">
+            <div class="container hero__inner">
+                <div class="hero__content">
+                    <h1 class="hero__title">Comunicação visual que dá forma à sua marca.</h1>
+                    <p class="hero__text">Projetamos e produzimos soluções em comunicação visual para empresas que querem se destacar.</p>
+
+                    <div class="hero__actions">
+                        <a href="#contato" class="btn btn--primary btn--lg">Solicitar orçamento</a>
+                        <a href="#servicos" class="btn btn--outline btn--lg">Conhecer nossos serviços</a>
+                    </div>
+
+                    <ul class="hero__steps">
+                        <li>Projeto</li>
+                        <li>Produção</li>
+                        <li>Instalação</li>
+                    </ul>
+                </div>
+
+                <!-- Composição ilustrativa em CSS. Para usar uma foto real, substitua
+                     o bloco .sign por: <img src="img/hero.jpg" alt="Descrição da foto" class="hero__photo"> -->
+                <div class="hero__visual" aria-hidden="true">
+                    <div class="hero__offset"></div>
+
+                    <div class="sign">
+                        <span class="crop crop--tl"></span>
+                        <span class="crop crop--tr"></span>
+                        <span class="crop crop--bl"></span>
+                        <span class="crop crop--br"></span>
+
+                        <div class="sign__lamp"></div>
+                        <div class="sign__letters">
+                            <span>A</span><span>C</span>
+                        </div>
+                        <div class="sign__plate">Ilustração de fachada com letra caixa</div>
+                    </div>
+
+                    <div class="swatch">
+                        <span class="swatch__chip"></span>
+                        <span class="swatch__info">
+                            <strong>Amarelo AC</strong>
+                            <span>#EDB512</span>
+                        </span>
+                    </div>
+
+                    <div class="colorbar">
+                        <span class="colorbar__c"></span>
+                        <span class="colorbar__m"></span>
+                        <span class="colorbar__y"></span>
+                        <span class="colorbar__k"></span>
+                    </div>
+
+                    <span class="regmark"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SERVIÇOS ============
+             Para adicionar um serviço, copie um bloco <article class="service">...</article>.
+             Para remover, apague o bloco. O grid se ajusta sozinho. -->
+        <section class="section section--paper" id="servicos">
+            <div class="container">
+                <header class="section-head">
+                    <h2 class="section-head__title">Nossos serviços</h2>
+                    <p class="section-head__text">Soluções personalizadas para destacar sua marca.</p>
+                </header>
+
+                <div class="services" data-reveal-group>
+
+                    <article class="service" data-reveal>
+                        <span class="service__icon">
+                            <svg viewBox="0 0 24 24"><path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0V9z"/><path d="M5 13v7h14v-7"/><path d="M10 20v-4h4v4"/></svg>
+                        </span>
+                        <h3 class="service__title">Placas e Fachadas</h3>
+                        <p class="service__text">Fachadas em ACM, placas e totens que tornam seu ponto fácil de reconhecer, de dia e de noite.</p>
+                        <a href="#contato" class="service__link">Pedir orçamento</a>
+                    </article>
+
+                    <article class="service" data-reveal>
+                        <span class="service__icon">
+                            <svg viewBox="0 0 24 24"><path d="M4 20L10 4h4l6 16"/><path d="M7 14h10"/><path d="M14 4l3-2"/><path d="M20 20l2-1.5"/><path d="M17 2l5 14.5"/></svg>
+                        </span>
+                        <h3 class="service__title">Letras Caixa</h3>
+                        <p class="service__text">Letras em relevo, com ou sem iluminação, para recepções, fachadas e ambientes internos.</p>
+                        <a href="#contato" class="service__link">Pedir orçamento</a>
+                    </article>
+
+                    <article class="service" data-reveal>
+                        <span class="service__icon">
+                            <svg viewBox="0 0 24 24"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V11"/><path d="M11 10.5V4a1.5 1.5 0 0 1 3 0v6.5"/><path d="M14 10.5V5.5a1.5 1.5 0 0 1 3 0V13"/><path d="M17 9.5a1.5 1.5 0 0 1 3 0V14a7 7 0 0 1-7 7h-1a6 6 0 0 1-4.6-2.2L4.2 15.6a1.5 1.5 0 0 1 2.3-1.9L8 15.5"/></svg>
+                        </span>
+                        <h3 class="service__title">Placas em Libras</h3>
+                        <p class="service__text">Sinalização com Libras que torna seu espaço acessível e acolhedor para a comunidade surda.</p>
+                        <a href="#contato" class="service__link">Pedir orçamento</a>
+                    </article>
+
+                    <article class="service" data-reveal>
+                        <span class="service__icon">
+                            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v5M12 17v5M2 12h5M17 12h5"/><path d="M5 5l2 2M17 17l2 2"/></svg>
+                        </span>
+                        <h3 class="service__title">Corte e Gravação</h3>
+                        <p class="service__text">Peças cortadas e gravadas em acrílico, MDF, PVC e outros materiais, sob medida.</p>
+                        <a href="#contato" class="service__link">Pedir orçamento</a>
+                    </article>
+
+                    <article class="service" data-reveal>
+                        <span class="service__icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 22V3"/><path d="M5 5h12l3 3-3 3H5z"/><path d="M19 13H8l-3 3 3 3h11z"/></svg>
+                        </span>
+                        <h3 class="service__title">Comunicação Visual</h3>
+                        <p class="service__text">Sinalização interna, painéis e projetos completos que organizam e valorizam o espaço.</p>
+                        <a href="#contato" class="service__link">Pedir orçamento</a>
+                    </article>
+
+                    <article class="service" data-reveal>
+                        <span class="service__icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 1 9-9c0 2.5-2 3.5-3.5 3.5H15a2 2 0 0 0-1.5 3.3A1.4 1.4 0 0 1 12 21z"/><path d="M7.5 11h.01M10 7.5h.01M14.5 7.5h.01"/></svg>
+                        </span>
+                        <h3 class="service__title">Criação de Artes / Design</h3>
+                        <p class="service__text">Não tem a arte pronta? Criamos o design da sua peça do zero, alinhado à identidade da sua marca.</p>
+                        <a href="#contato" class="service__link">Pedir orçamento</a>
+                    </article>
+
+                    <article class="service" data-reveal>
+                        <span class="service__icon">
+                            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 3h3M14 7h1M19 3h2v4M14 14h3v3M21 14v7h-4M14 21h.01"/></svg>
+                        </span>
+                        <h3 class="service__title">Plaquinhas NFC e QR Code</h3>
+                        <p class="service__text">Plaquinhas de balcão e mesa que levam o cliente ao seu Instagram, cardápio ou avaliação com um toque do celular.</p>
+                        <a href="#contato" class="service__link">Pedir orçamento</a>
+                    </article>
+
+                    <article class="service" data-reveal>
+                        <span class="service__icon">
+                            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8h18"/><path d="M6 6h.01M8.5 6h.01"/><path d="M8 21h8M12 18v3"/></svg>
+                        </span>
+                        <h3 class="service__title">Presença Digital</h3>
+                        <p class="service__text">Landing pages e posts para redes sociais que mantêm sua marca bem apresentada também no digital.</p>
+                        <a href="#contato" class="service__link">Pedir orçamento</a>
+                    </article>
+
+                    <article class="service service--other" data-reveal>
+                        <span class="service__icon">
+                            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 8v8M8 12h8"/></svg>
+                        </span>
+                        <h3 class="service__title">Outros Serviços</h3>
+                        <p class="service__text">Tem uma necessidade diferente? Conte o que você precisa e avaliamos a melhor solução.</p>
+                        <a href="#contato" class="service__link">Falar com a equipe</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ POR QUE ESCOLHER ============ -->
+        <section class="section" id="sobre">
+            <div class="container why">
+                <div class="why__intro" data-reveal>
+                    <h2 class="why__title">Transformamos ideias em comunicação visual.</h2>
+                    <p class="why__text">Cada projeto da AC Comunicação começa entendendo a sua marca e termina com uma peça pronta, instalada e bem acabada. Você acompanha tudo com uma equipe só.</p>
+                    <a href="#contato" class="btn btn--dark">Solicitar orçamento</a>
+                </div>
+
+                <ul class="why__list" data-reveal-group>
+                    <li class="why__item" data-reveal>
+                        <span class="why__icon">
+                            <svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 21l1.9-5.4A8 8 0 1 1 21 12z"/><path d="M8.5 11h.01M12 11h.01M15.5 11h.01"/></svg>
+                        </span>
+                        <div>
+                            <h3>Atendimento personalizado</h3>
+                            <p>Você fala direto com quem cuida do seu projeto, do primeiro contato à entrega.</p>
+                        </div>
+                    </li>
+                    <li class="why__item" data-reveal>
+                        <span class="why__icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"/></svg>
+                        </span>
+                        <div>
+                            <h3>Acabamento profissional</h3>
+                            <p>Atenção a medidas, alinhamento e materiais, para um resultado que resiste ao tempo.</p>
+                        </div>
+                    </li>
+                    <li class="why__item" data-reveal>
+                        <span class="why__icon">
+                            <svg viewBox="0 0 24 24"><path d="M3 21l6-6"/><path d="M14.5 3.5l6 6-9 9H5.5v-6z"/><path d="M12 6l6 6"/></svg>
+                        </span>
+                        <div>
+                            <h3>Soluções sob medida</h3>
+                            <p>Cada peça é pensada para o seu espaço, seu público e seu orçamento.</p>
+                        </div>
+                    </li>
+                    <li class="why__item" data-reveal>
+                        <span class="why__icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>
+                        </span>
+                        <div>
+                            <h3>Compromisso com qualidade</h3>
+                            <p>Prazos combinados com clareza e revisão cuidadosa antes de cada entrega.</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Destaques numéricos (opcional). Só publique com números reais:
+                <div class="why__stats">
+                    <div><strong>[00]+</strong><span>anos de mercado</span></div>
+                    <div><strong>[000]+</strong><span>projetos entregues</span></div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- ============ PROCESSO ============ -->
+        <section class="section section--dark" id="processo">
+            <div class="container">
+                <header class="section-head section-head--light">
+                    <h2 class="section-head__title">Do projeto à instalação</h2>
+                    <p class="section-head__text">Um caminho claro, com você por dentro de cada etapa.</p>
+                </header>
+
+                <ol class="process" data-reveal-group>
+                    <li class="process__step" data-reveal>
+                        <span class="process__num">01</span>
+                        <h3>Briefing</h3>
+                        <p>Entendemos sua marca, o local, as medidas e o que a peça precisa comunicar.</p>
+                    </li>
+                    <li class="process__step" data-reveal>
+                        <span class="process__num">02</span>
+                        <h3>Criação</h3>
+                        <p>Desenvolvemos o projeto e apresentamos a prévia para sua aprovação.</p>
+                    </li>
+                    <li class="process__step" data-reveal>
+                        <span class="process__num">03</span>
+                        <h3>Produção</h3>
+                        <p>Com o projeto aprovado, a peça é produzida com os materiais definidos.</p>
+                    </li>
+                    <li class="process__step" data-reveal>
+                        <span class="process__num">04</span>
+                        <h3>Entrega / Instalação</h3>
+                        <p>Entregamos ou instalamos no local, conferindo cada detalhe do acabamento.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ============ PORTFÓLIO ============
+             Cada trabalho é um <figure class="work">. Para adicionar, copie um bloco e troque
+             a foto (img/fotos/), o alt, a categoria e o título.
+             - data-category precisa bater com um data-filter dos botões.
+             - Tamanhos: "work--big" (2x2), "work--wide" (2 colunas), "work--tall" (2 linhas) ou nenhum.
+             - style="--pos: X% Y%" escolhe qual parte da foto fica visível no recorte. -->
+        <section class="section" id="trabalhos">
+            <div class="container">
+                <header class="section-head section-head--split">
+                    <div>
+                        <h2 class="section-head__title">Alguns de nossos trabalhos</h2>
+                        <p class="section-head__text">Fachadas, letras caixa, placas e sinalização produzidas e instaladas pela nossa equipe.</p>
+                    </div>
+
+                    <div class="filters" role="group" aria-label="Filtrar trabalhos por categoria">
+                        <button class="filter is-active" data-filter="todos" aria-pressed="true">Todos</button>
+                        <button class="filter" data-filter="fachadas" aria-pressed="false">Fachadas</button>
+                        <button class="filter" data-filter="letras" aria-pressed="false">Letras caixa</button>
+                        <button class="filter" data-filter="placas" aria-pressed="false">Placas</button>
+                        <button class="filter" data-filter="sinalizacao" aria-pressed="false">Sinalização</button>
+                        <!-- Para uma nova categoria, adicione um botão com data-filter igual ao data-category dos trabalhos -->
+                    </div>
+                </header>
+
+                <div class="works" id="works">
+                    <figure class="work work--big" data-category="fachadas">
+                        <img class="work__media" src="img/fotos/5.jpg" width="1400" height="1050" loading="lazy" style="--pos: 35% 60%"
+                             alt="Fachada de agência do Banco do Brasil com painel amarelo e letreiro em destaque">
+                        <figcaption class="work__caption">
+                            <span class="work__cat">Fachadas</span>
+                            <h3 class="work__title">Fachada de agência Banco do Brasil</h3>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="work work--tall" data-category="placas">
+                        <img class="work__media" src="img/fotos/2.jpg" width="1053" height="1400" loading="lazy" style="--pos: 50% 40%"
+                             alt="Placa luminosa amarela com o símbolo do Banco do Brasil e o texto Setor Público">
+                        <figcaption class="work__caption">
+                            <span class="work__cat">Placas</span>
+                            <h3 class="work__title">Placa luminosa Setor Público</h3>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="work" data-category="fachadas">
+                        <img class="work__media" src="img/fotos/3.jpg" width="1400" height="1054" loading="lazy" style="--pos: 60% 50%"
+                             alt="Fachada de agência da Caixa com painel azul e letras brancas em relevo">
+                        <figcaption class="work__caption">
+                            <span class="work__cat">Fachadas</span>
+                            <h3 class="work__title">Fachada de agência Caixa</h3>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="work" data-category="letras">
+                        <img class="work__media" src="img/fotos/6.jpg" width="1400" height="788" loading="lazy" style="--pos: 42% 40%"
+                             alt="Logo em relevo azul e laranja aplicado em parede de cimento queimado de um estúdio de personal trainer">
+                        <figcaption class="work__caption">
+                            <span class="work__cat">Letras caixa</span>
+                            <h3 class="work__title">Logo em relevo para estúdio</h3>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="work" data-category="placas">
+                        <img class="work__media" src="img/fotos/1.jpg" width="1400" height="1050" loading="lazy" style="--pos: 50% 35%"
+                             alt="Duas placas de estacionamento reservado com credencial, para pessoa com deficiência e para idosos">
+                        <figcaption class="work__caption">
+                            <span class="work__cat">Placas</span>
+                            <h3 class="work__title">Placas de vaga reservada</h3>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="work work--wide" data-category="letras">
+                        <img class="work__media" src="img/fotos/4.jpg" width="1400" height="1054" loading="lazy" style="--pos: 50% 30%"
+                             alt="Letras caixa vermelhas do Bradesco instaladas em fachada de agência">
+                        <figcaption class="work__caption">
+                            <span class="work__cat">Letras caixa</span>
+                            <h3 class="work__title">Letra caixa em fachada Bradesco</h3>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="work" data-category="sinalizacao">
+                        <img class="work__media" src="img/fotos/7.jpg" width="1400" height="788" loading="lazy" style="--pos: 50% 62%"
+                             alt="Placas azuis de identificação de salas com texto em branco e escrita em braile">
+                        <figcaption class="work__caption">
+                            <span class="work__cat">Sinalização</span>
+                            <h3 class="work__title">Placas de sinalização com braile</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p class="works__empty" id="worksEmpty" hidden>Nenhum trabalho nesta categoria ainda.</p>
+            </div>
+        </section>
+
+        <!-- ============ CTA ============ -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta__inner" data-reveal>
+                    <div>
+                        <h2 class="cta__title">Tem um projeto em mente?</h2>
+                        <p class="cta__text">Fale com a nossa equipe e encontre a solução ideal para sua comunicação visual.</p>
+                    </div>
+                    <a href="#contato" class="btn btn--primary btn--lg">Solicitar orçamento</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CONTATO ============
+             Cada pessoa é um <article class="person">. Para mudar um número, troque o texto
+             em .person__phone e os dígitos nos links wa.me/55... e tel:+55... (DDD + número, sem espaços). -->
+        <section class="section section--paper" id="contato">
+            <div class="container contact">
+                <div class="contact__info" data-reveal>
+                    <h2 class="section-head__title">Fale com a nossa equipe</h2>
+                    <p class="contact__lead">Chame no WhatsApp ou ligue direto para um dos responsáveis. Envie fotos, medidas ou a ideia que você tem, e montamos o orçamento.</p>
+                </div>
+
+                <div class="people" data-reveal-group>
+                    <article class="person" data-reveal>
+                        <span class="person__avatar" aria-hidden="true">AA</span>
+                        <h3 class="person__name">Antonio Alexandre</h3>
+                        <p class="person__phone">(91) 98042-2414</p>
+                        <div class="person__actions">
+                            <a class="btn btn--primary" href="https://wa.me/5591980422414?text=Ol%C3%A1%2C%20Antonio%21%20Vim%20pelo%20site%20da%20AC%20Comunica%C3%A7%C3%A3o%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+                                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 20.5l1.3-4.3A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .9a5 5 0 0 1-2.4-2.4l.9-1-1-2z"/></svg>
+                                Chamar no WhatsApp
+                            </a>
+                            <a class="btn btn--outline" href="tel:+5591980422414">
+                                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>
+                                Ligar
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="person" data-reveal>
+                        <span class="person__avatar" aria-hidden="true">CG</span>
+                        <h3 class="person__name">Célio Garcia</h3>
+                        <p class="person__phone">(91) 98293-0725</p>
+                        <div class="person__actions">
+                            <a class="btn btn--primary" href="https://wa.me/5591982930725?text=Ol%C3%A1%2C%20C%C3%A9lio%21%20Vim%20pelo%20site%20da%20AC%20Comunica%C3%A7%C3%A3o%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+                                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 20.5l1.3-4.3A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .9a5 5 0 0 1-2.4-2.4l.9-1-1-2z"/></svg>
+                                Chamar no WhatsApp
+                            </a>
+                            <a class="btn btn--outline" href="tel:+5591982930725">
+                                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>
+                                Ligar
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div class="footer__brand">
+                <a href="#inicio" class="brand brand--light" aria-label="AC Comunicação — voltar ao início">
+                    <span class="brand__tile"><img src="img/logo-ac-simbolo.png" alt="" class="brand__symbol" width="600" height="487"></span>
+                    <span class="brand__text">
+                        <span class="brand__name">AC Comunicação</span>
+                        <span class="brand__tag">Comunicação visual</span>
+                    </span>
+                </a>
+                <p class="footer__about">Comunicação visual para empresas: fachadas, placas, letras caixa, criação de artes e presença digital, do projeto à instalação.</p>
+            </div>
+
+            <nav class="footer__col" aria-label="Links rápidos">
+                <h3>Links rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#trabalhos">Trabalhos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer__col">
+                <h3>Contato</h3>
+                <ul class="footer__people">
+                    <li><span>Antonio Alexandre</span><a href="https://wa.me/5591980422414" target="_blank" rel="noopener">(91) 98042-2414</a></li>
+                    <li><span>Célio Garcia</span><a href="https://wa.me/5591982930725" target="_blank" rel="noopener">(91) 98293-0725</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer__bottom">
+            <p>© 2026 AC Comunicação. Todos os direitos reservados.</p>
+            <a href="#inicio" class="footer__top">Voltar ao topo</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
